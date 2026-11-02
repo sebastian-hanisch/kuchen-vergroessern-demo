@@ -85,7 +85,7 @@ def test_core_question_numbers(grid):
     e2 = XP.find(grid["e6"], theta=1.0)
     core = README.split("## Kernfrage")[1].split("## Befunde und Korrekturen")[0]
     has(core, V.de(c["gain"]["mean"], 1), V.pct(c["share_nash"]["mean"], 1), V.pct(c["share_ks"]["mean"], 1))
-    assert round(e2["vier Einzelpunkte"]["mean"], 6) == 0 and "vier einzeln verhandelte Punkte 0 %" in core
+    assert round(e2["vier Einzelpunkte"]["mean"], 6) == 0 and "jeden der vier Punkte einzeln in der Mitte teilt, hebt per Konstruktion 0 %" in core
     ts = V.term_summary(Settings(rs=1.0, rv=2.0, term=30))
     has(core, V.de(ts["gain_best"], 0) + " Euro", V.de(ts["d_star"], 1) + " Tagen", V.de(V.risk_summary(Settings())["gain_star"], 2) + " Euro")
 
