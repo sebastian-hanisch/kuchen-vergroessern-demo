@@ -1,7 +1,6 @@
 # Woher kommt der Gewinn? Kuchen vergrößern – Streamlit-Demo
 
-<!-- TODO nach dem Deploy: direkt hierher den Live-Link setzen (Leerzeile davor und danach):
-**[→ Demo live ausprobieren](https://sebastianhanisch-kuchen-vergroessern-demo.streamlit.app/)** -->
+**[→ Demo live ausprobieren](https://sebastianhanisch-kuchen-vergroessern-demo.streamlit.app/)**
 
 Stück der Linie **regeln-verhandeln** (Arbeitsname; Name, Bereich und Themenfeld werden erst bei der Einbindung in die Website festgelegt) in der „Konzepte“-Reihe für die Website „Sebastian Hanisch – Operations Research und Machine Learning“. Es folgt auf [`verhandlung-demo`](https://github.com/sebastian-hanisch/verhandlung-demo), das einen **festen** Überschuss teilt; hier steht die Frage davor: **woher der Überschuss kommt und wann er sich vergrößern lässt**. Vehikel: ein **Verlader** und ein **Spediteur** verhandeln mehrere Punkte zugleich (Lieferfenster, Zahlungsziel, Rückladung, Rampenzeit und als Geld den Preis). Gewichte, Nutzenfunktionen und Eigennutz sind **Modellannahmen**, keine Aussagen über echte Betriebe; die Zahlen sind erfunden.
 
@@ -259,4 +258,4 @@ Gebaut mit Streamlit, Plotly, NumPy und fpdf2.
 
 ---
 
-Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zu den Demos: [Interaktive Demos](https://sebastianhanisch.net/demos.html).
+Diese Demo ist Teil des Portfolios von [Sebastian Hanisch](https://sebastianhanisch.net) – Operations Research und Machine Learning ([Über mich](https://sebastianhanisch.net/ueber-mich.html)). Mehr zur Reihe: [Regeln setzen, verhandeln, kontrollieren](https://sebastianhanisch.net/konzepte-verhandeln.html).
