@@ -423,7 +423,7 @@ def verdict_bridge(b: dict, delta_v: float, delta_s: float) -> tuple[str, str]:
         return "success", (f"Beide Vorschläge liegen im Inneren des Stücks mit Steigung −1: V bekommt als erster Anbieter {de(b['p'][0], 1)} von {de(b['t'], 1)}, genau T · (1 − δ_S) / (1 − δ_V δ_S) = {de(b['t'], 1)} · {de(share, 3)}. "
                            "Die Aufteilung des Überschusses ist das Verhandlungsspiel des Vorgängerstücks mit T statt 1.")
     return "info", (f"Die Bedingung ist nicht erfüllt (beide vom Rubinstein-Gleichgewicht verlangten Vorschläge im Inneren des Stücks mit Steigung −1; zu wenig Spielraum): V bekommt {de(b['p'][0], 1)} statt "
-                    f"T · {de(share, 3)} = {de(b['t_split'][0], 1)}, Abstand {de(b['diff'], 1)}. Die Übertragung auf T gilt nur, solange der Preis-Spielraum beide Vorschläge trägt.")
+                    f"T · {de(share, 3)} = {de(b['t_split'][0], 1)}, Abstand {de(b['diff'], 1)}. Die Übertragung auf T gilt nur, solange der Preis-Spielraum beide Vorschläge zulässt.")
 
 
 def verdict_time(t: dict) -> tuple[str, str]:
